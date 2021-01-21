@@ -66,6 +66,9 @@ nav{
     .navandarticle { display: inline; }
     .logoimg{display:block;margin:auto}
     .body{background-size: default} ;    }
+@media screen and ( max-width: 600px ) { 
+	h1{font-size: 55px;}
+}
 
   
 
