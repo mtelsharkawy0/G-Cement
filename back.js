@@ -1,7 +1,7 @@
 const express = require ("express");
 const path = require("path")
 const app = express();
-let port = process.env.port||8080
+let port = process.env.PORT||8080
 app.use(express.static("public",{}))
 app.get("/api/:id",(req,res)=>{res.sendFile(path.join(__dirname,`${req.params.id}.html`))})
 app.get('*', function(req, res){
