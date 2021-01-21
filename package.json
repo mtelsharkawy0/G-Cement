@@ -1,8 +1,11 @@
 {
   "name": "gcement",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.15.3"
+  },
   "description": "",
-  "main": "scr.js",
+  "main": "back.js",
   "scripts": {
     "start": "node back.js"
   },
