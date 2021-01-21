@@ -1,0 +1,44 @@
+<style>
+    .gallery1{
+        display: flex;
+    }
+    .gallery2{
+        display: flex;
+    }
+    .images{
+        flex:1;
+        margin:10px;
+    }
+    .container{
+        background-color: rgba(0, 0, 0, 0.384);
+        padding: 15px;
+    }
+    @media screen and ( max-width: 600px ) { 
+    .gallery1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto
+    }
+    .gallery2{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto
+    }
+    .images{
+        margin: 10px auto
+    }
+    
+    }
+</style>
+<h1>Gallery</h1>
+<div class="container">
+<div class="gallery1">
+    <img class="images" src="gal1.jpg"  width=100px alt="">
+    <img class="images" src="gal2.jpeg" width=100px alt="">
+    <img class="images" src="gal3.jpeg" width=100px alt="">
+</div>
+<div class="gallery2">
+    <img class="images" src="gal4.jpeg"  width=100px alt="">
+    <img class="images" src="gal5.jpeg"  width=100px alt="">
+</div>
+</div>

@@ -1,0 +1,14 @@
+{
+  "name": "gcement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scr.js",
+  "scripts": {
+    "start": "node back.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
