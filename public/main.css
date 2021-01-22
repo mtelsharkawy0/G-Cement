@@ -2,10 +2,8 @@
 margin:0}
 
 body{
-    background-image: url("wall.jpg");
-    background-repeat: no-repeat;
+    background:linear-gradient(77deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)
     margin:0;
-    background-size: cover ;
     font-family: 'Work Sans', sans-serif;
     }
 p{font-size: 17px;}
