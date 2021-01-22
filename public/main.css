@@ -48,7 +48,10 @@ nav{
     padding-top:15px;
     font-size: 20px;
     text-align: center;
-    color:white
+    color:white;
+}
+.navbuttons p{
+	user-select: none
 }
 
 .navbuttons:hover{
