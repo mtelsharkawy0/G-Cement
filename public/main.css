@@ -63,13 +63,25 @@ nav{
     display:flex;
     align-items:flex-start
 }
+.zoomimage{
+    position:absolute; 
+    left:30%;
+    margin-top:15vh;
+    width:40%
+}
 @media screen and ( max-width: 1000px ) { 
     .navandarticle { display: inline; }
     .logoimg{display:block;margin:auto}
-    .body{background-size: default} ;    }
+    .body{background-size: default} 
+    .zoomimage{
+        left:10%;
+        width:80%;
+    }    
+}
 @media screen and ( max-width: 600px ) { 
 	h1{font-size: 55px;}
 }
+
 
   
 

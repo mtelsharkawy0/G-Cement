@@ -9,6 +9,7 @@
         flex:1;
         margin:10px;
         opacity: 0.5;
+        transition: 0.7s;
     }
     .images:hover{
         opacity: 1
@@ -31,18 +32,20 @@
     .images{
         margin: 10px auto
     }
+    .zoom{display:none}
     
     }
 </style>
 <h1>Gallery</h1>
+<div onClick="removezoom()"class="zoom"></div>
 <div class="container">
 <div class="gallery1">
-    <img class="images" src="gal1.jpg"  width=100px alt="">
-    <img class="images" src="gal2.jpeg" width=100px alt="">
-    <img class="images" src="gal3.jpeg" width=100px alt="">
+    <img onclick="galleryzoom(this)" class="images" src="gal1.jpg"  width=100px alt="">
+    <img onclick="galleryzoom(this)" class="images" src="gal2.jpeg" width=100px alt="">
+    <img onclick="galleryzoom(this)" class="images" src="gal3.jpeg" width=100px alt="">
 </div>
 <div class="gallery2">
-    <img class="images" src="gal4.jpeg"  width=100px alt="">
-    <img class="images" src="gal5.jpeg"  width=100px alt="">
+    <img onclick="galleryzoom(this)" class="images" src="gal4.jpeg"  width=100px alt="">
+    <img onclick="galleryzoom(this)" class="images" src="gal5.jpeg"  width=100px alt="">
 </div>
 </div>
