@@ -41,6 +41,13 @@ nav{
     margin-bottom: 15px;
     background-color: rgba(23, 61, 1, 0.384); 
     text-align: center;
+    box-shadow: 1px 1px 5px black
+}
+.arabic{
+    text-align: right;
+}
+.navbuttons .arabic{
+    text-align:center;
 }
 .navbuttons{
     flex:1;
@@ -55,7 +62,7 @@ nav{
 }
 
 .navbuttons:hover{
-    color:yellow;
+    color:goldenrod;
     background-color: rgba(52, 138, 3, 0.384);
     cursor: pointer;
 }
@@ -69,6 +76,13 @@ nav{
     margin-top:15vh;
     width:40%
 }
+.langbox{
+    display: flex; border-top: goldenrod 2px solid;
+}
+.langbox.navbuttons{
+    flex:1;
+}
+
 @media screen and ( max-width: 1000px ) { 
     .navandarticle { display: inline; }
     .logoimg{display:block;margin:auto}
