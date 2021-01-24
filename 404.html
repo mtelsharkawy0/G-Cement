@@ -3,26 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="shortcut icon" type= "image/x-icon" href="Logo2.jpg" size="15px">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
     <script type="text/javascript" src="scr.js"></script>
     <title>G-Cement</title>
 </head>
-<body >
+<body>
     <div class="mainDiv">
             <header>
                 <div class="logo"><img class="logoimg" src="logo.png" alt="G-Cement" width="300"/></div>
             </header>
         <div class="navandarticle">
             <nav>
-                <div onclick="change('about')" class="navbuttons"><p>About</p></div>
-                <div onclick="change('updates')" class="navbuttons"><p>Updates</p></div>
-                <div onclick="change('gallery')" class="navbuttons"><p>Gallery</p></div>
-                <div onclick="change('contact')" class="navbuttons"><p>Contact us</p></div>
+                <div onclick="change('about')"class="navbuttons">
+                    <p class="eng">About</p>
+                    <p class="arabic">عن الشركه</p>
+                </div>
+                <div onclick="change('updates')" class="navbuttons">
+                    <p class="eng">Updates</p>
+                    <p class="arabic">التحديثات </p>
+                </div>
+                <div onclick="change('gallery')" class="navbuttons">
+                    <p class="eng">Gallery</p>
+                    <p class="arabic">الصور</p>
+                </div>
+                <div onclick="change('contact')" class="navbuttons">
+                    <p class="eng">Contact us</p>
+                    <p class="arabic">اتصل بنا</p>
+                </div>
+                <div class="langbox" >
+                    <div id="eng" onclick="english()" class="navbuttons"><p>Eng</p></div>
+                    <div id="arabic" onclick="arabic()"  class="navbuttons"><p>عربي</p></div>
+                </div>
             </nav>
         <article>
-            <h1>PAGE NOT FOUND</h1>
+            <h1 class="eng">page not found</h1>
+            <h1 class="arabic">لم يتم العثور علي الصفحه</h1>
         </article>
     </div>
 </div>
