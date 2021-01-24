@@ -1,4 +1,8 @@
 var lang="e"
+document.addEventListener('DOMContentLoaded',  () =>{
+    english()
+});
+
 change=(page)=>{
     let article=document.getElementsByTagName("article")[0];
     fetch(`./api/${page}`)
