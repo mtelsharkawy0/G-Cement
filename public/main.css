@@ -2,14 +2,14 @@
 margin:0}
 
 body{
-    background:linear-gradient(77deg, green 0%, rgba(253,187,45,1) 100%);
+    background:#008001;
     margin:0;
     font-family: 'Work Sans', sans-serif;
     }
 p{font-size: 17px;}
 h1{
     font-size: 75px;
-    color: goldenrod;
+    color: grey;
     margin-top: -20px;
 }
 article{
@@ -26,12 +26,9 @@ footer{
     color:grey;
     text-align: center;
     width:100%;
-    background-color: rgba(0, 0, 0, 0.8); 
-
 }
 .mainDiv{
     min-height: 90vh;
-    background-color: rgba(0, 0, 0,0.8); 
 } 
 
 nav{
