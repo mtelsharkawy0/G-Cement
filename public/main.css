@@ -2,21 +2,41 @@
 margin:0}
 
 body{
-    background:rgb(1,30,1);
+    background:black;
     margin:0;
     font-family: 'Work Sans', sans-serif;
     }
 p{font-size: 17px;}
+.logoimg{
+    display: block;
+    margin:auto;
+}
+.v{
+    margin-bottom:15px ;
+}
 h1{
     font-size: 75px;
-    color: grey;
+    color: white;
     margin-top: -20px;
+    user-select: none
+}
+.sticky {
+    position: fixed;
+    top: 0;
+}
+iframe{
+    height:90vh;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
 }
 article{
 flex:3;
 color:white;
 margin: 0px 15px 0px 15px;
 padding-bottom: 30px;
+width: 85%;
+margin: auto;
 }
 article h1{
     margin-bottom: 25px;
@@ -33,12 +53,13 @@ footer{
 
 nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex:1;
     margin-bottom: 15px;
-    background-color: rgba(23, 61, 1, 0.384); 
+    background-color: black; 
+    border-bottom: white 1px solid;
     text-align: center;
-    box-shadow: 1px 1px 5px black
+    width:100%
 }
 .arabic{
     text-align: right;
@@ -59,13 +80,12 @@ nav{
 }
 
 .navbuttons:hover{
-    color:goldenrod;
-    background-color: rgba(52, 138, 3, 0.384);
     cursor: pointer;
 }
 .navandarticle{
     display:flex;
-    align-items:flex-start
+    align-items:flex-start;
+    flex-direction: column
 }
 .zoomimage{
     position:absolute; 
@@ -74,15 +94,20 @@ nav{
     width:40%
 }
 .langbox{
-    display: flex; border-top: goldenrod 2px solid;
+    display: flex;
+    border-left: white 1px solid;
 }
 .langbox.navbuttons{
     flex:1;
 }
+video{
+    margin:auto;
+    display: block;
+}
 
 @media screen and ( max-width: 1000px ) { 
     .navandarticle { display: inline; }
-    .logoimg{display:block;margin:auto}
+    nav{flex-direction: column;}
     .body{background-size: default} 
     .zoomimage{
         left:10%;

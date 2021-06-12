@@ -1,0 +1,70 @@
+<h1 class="eng">Videos</h1>
+<h1 class="arabic">الفيديوهات</h1>
+<style>
+    .gallery1{
+        display: flex;
+    }
+    .images{
+        flex:1;
+        margin:10px;
+        opacity: 0.5;
+        transition: 0.7s;
+    }
+    .images:hover{
+        opacity: 1
+    }
+    .container{
+        background-color: rgba(0, 0, 0, 0.384);
+        padding: 15px;
+    }
+    @media screen and ( max-width: 600px ) { 
+    .gallery1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto
+    }
+    .images{
+        margin: 10px auto
+    }
+    .zoom{display:none}
+    
+    }
+</style>
+<div onClick="removezoom()"class="zoom"></div>
+<div class="container">
+<div class="gallery1">
+    <div class="images">
+    <video onclick="galleryzoom(this)" controls   width=100% alt="">
+        <source src="v2.mp4" type="video/mp4">
+    </video> 
+    <p>G-cement Digital Pitch (ScaleUp Ventures)</p>
+    </div>  
+    <div class="images">
+        <video onclick="galleryzoom(this)" controls   width=100% alt="">
+            <source src="v3.mp4" type="video/mp4">
+        </video> 
+        <p>G-cement Digital Pitch (AUC Venture Lab)</p>
+    </div>  
+    <div class="images">
+        <video onclick="galleryzoom(this)" controls   width=100% alt="">
+            <source src="v4.mp4" type="video/mp4">
+        </video> 
+        <p>G-cement Live pitch</p>
+    </div>  
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+  
+
+

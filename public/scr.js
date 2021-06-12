@@ -12,7 +12,6 @@ change=(page)=>{
     .catch((err)=>{return 0})
 }
 newpagelang=()=>{
-    console.log("adsad");
     if (lang == "e"){
         english()
     }
@@ -47,10 +46,6 @@ galleryzoom =(element)=>{
 }
 english=()=>{
     lang="e"
-    document.getElementById("arabic").style.color="white"
-    document.getElementById("arabic").style.backgroundColor="rgba(23, 61, 1, 0.384)"
-    document.getElementById("eng").style.color="goldenrod"
-    document.getElementById("eng").style.backgroundColor="rgba(52, 138, 3, 0.384)"
     engl=Array.from(document.getElementsByClassName("eng"))
     arab=Array.from(document.getElementsByClassName("arabic"))
     engl.forEach(element => {
@@ -62,10 +57,6 @@ english=()=>{
 }
 arabic=()=>{
     lang="a"
-    document.getElementById("arabic").style.color="goldenrod"
-    document.getElementById("arabic").style.backgroundColor="rgba(52, 138, 3, 0.384)"
-    document.getElementById("eng").style.color="white"
-    document.getElementById("eng").style.backgroundColor="rgba(23, 61, 1, 0.384)"
     engl=Array.from(document.getElementsByClassName("eng"))
     arab=Array.from(document.getElementsByClassName("arabic"))
     engl.forEach(element => {
@@ -76,3 +67,5 @@ arabic=()=>{
     });
 
 }
+
+
