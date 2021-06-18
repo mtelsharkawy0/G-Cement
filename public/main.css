@@ -11,6 +11,9 @@ p{font-size: 17px;}
     display: block;
     margin:auto;
 }
+.logoimg:hover{
+    cursor: pointer;
+}
 .v{
     margin-bottom:15px ;
 }
@@ -24,8 +27,8 @@ h1{
     position: fixed;
     top: 0;
 }
-iframe{
-    height:90vh;
+.dataimg{
+    width:85%;
     margin: auto;
     display: block;
     margin-top: 10px;
